@@ -27,7 +27,7 @@ flow_factor = 36 # ms/mL for a 100L/H pump
 tube_const = 5 # tube takes 5 seconds to fill
 
 
-with st.status("Setting up pump..."):
+with st.status("Setting up pump!"):
     # loop for 100 seconds
     # x measurement every 10 seconds
     # this is simulating live data, replace with real live data
